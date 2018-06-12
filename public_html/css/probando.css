@@ -1,0 +1,49 @@
+body {
+  background-color:#e2e2e2;
+  font-family:Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+a:hover, a:visited, a:link {
+  text-decoration:none;
+  color: #0090D0;
+}
+a.padding{
+  padding-bottom: 15px;
+}
+#signature {
+  width:40em;
+  height: 5em;
+  margin: 0px;
+  padding: 50px 0px;
+  background-color:#fff;
+}
+
+img {
+  width:100px;
+  float:left;
+  margin-top: -10px;
+  margin-right:10px;
+}
+#content p {
+  margin:0;
+  padding:0;
+}
+
+#content #title {
+  text-transform:uppercase;
+  letter-spacing:2px;
+  color: #3d383f;
+  margin-top:2px
+}
+
+#content #subtitle, span {
+  font: italic 1em Georgia, serif;
+  margin-top: 5px;
+  color:#a3a3a3;
+}
+
+#content #web {
+  float:left;
+  margin-top: 5px;
+}

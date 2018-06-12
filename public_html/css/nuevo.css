@@ -1,0 +1,643 @@
+/* ========== IN: NUEVO AÑADIDOS ===== */
+/* --- In: blog --- */
+
+blockquote>p {
+    width: auto;
+    background-color: #fff;
+    font-size: 20px;
+    color: #555;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: justify;
+}
+
+blockquote>.frase {
+    width: auto;
+    background-color: #fff;
+    font-size: 20px;
+    padding-right: 500px;
+    color: #555;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.comillas {
+    color: #3A3B3B;
+    font-size: 20px;
+}
+
+.marco-2 {
+    padding-top: 150px;
+}
+
+.compartir-rs{
+    background: #f1f1f1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    font-family: 'open san', sans-serif;
+    font-weight: 600;
+    letter-spacing: 15px;
+    color: #777777;
+}
+
+.caja-comentario {
+    padding-top: 3rem;
+}
+
+.parrafo {
+    font-family: 'lora', serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.frase-blog {
+    font-family: 'lora', serif;
+    font-size: 25px;
+    padding-right: 400px;
+    text-align: left;
+    padding-left: 80px;
+}
+
+.title-blog {
+    font-family: 'Dancing Script', serif;
+    font-size: 45px;
+}
+
+.sub-title {
+    font-family: 'Cardo', serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+
+@media screen and (max-width:768px) {
+    .frase-blog {
+        padding-left: 30px;
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .frase-blog {
+        padding-left: 30px;
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .frase-blog {
+        padding-left: 30px;
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+}
+
+/* --- End: blog --- */
+
+
+
+.text-justify>a {
+    font-size: 17px;
+    color: #156996;
+}
+
+.algo-mas>p {
+    font-size: 16px;
+    color: #555;
+}
+
+
+/* --- In: Map */
+
+.ubi-map {
+    color: #34495e;
+    font-size: 28px;
+    font-family: sans-serif
+}
+
+.mapp {
+    box-shadow: 0 0 0 10px #ecf0f1;
+}
+
+
+/* --- End: Map */
+
+
+/* --- In: Formulario --*/
+
+.Formulario-Google {
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 8rem;
+    padding-top: 0px
+}
+
+
+/* --- End: Formulario --*/
+
+
+/*-- In: Nosotros --*/
+
+.mision {
+    background: #fff;
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+    border-radius: 10px;
+    pointer-events: auto
+}
+
+.fuente-mision {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+.module-2 {
+    padding-bottom: 0rem;
+    padding-top: 12rem;
+}
+
+.module-title-2 {
+    color: #000;
+    text-align: center;
+    font-family: serif
+}
+
+.module-subtitle-2 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.red-ri-1 {
+    text-align: center;
+    font-size: 28px;
+    font-family: serif
+}
+
+.red-ri {
+    text-align: center;
+    font-size: 23px;
+    font-family: serif
+}
+
+.verso-lema {
+    padding-bottom: 12rem;
+    padding-top: 12rem;
+}
+
+.img-rri-nosotros {
+    width: 100%;
+}
+
+
+/*-- End: Nosotros --*/
+
+
+/*-- In: Misión Integridad --*/
+
+.img-mision-integridad {
+    padding-bottom: 0rem;
+    padding-top: 12rem;
+}
+
+.letra-mi-title {
+    text-align: center;
+    font-size: 40px
+}
+
+.container-m {
+    padding-bottom: 10rem;
+    padding-top: 12rem;
+}
+
+.mi-title {
+    font-family: serif;
+}
+
+.mi-parrafo {
+    font-family: serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #515769;
+}
+
+
+/*-- End: Misión Integridad --*/
+
+
+/*-- In: Radio adicionado/Blogs --*/
+
+.reproducir-radio {
+    color: #156996;
+    font-size: 22px;
+    text-align: left;
+    font-family: sans-serif
+}
+
+
+/*-- End: Radio adicionado/Blogs --*/
+
+
+/*--In: paypal--*/
+
+.paypal {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    pointer-events: auto;
+}
+
+.title-paypal-1 {
+    padding-top: 50px;
+    color: #555;
+    text-align: center;
+    font-family: 'Quattrocento', serif;
+}
+
+.title-paypal-2 {
+    padding-top: 20px;
+    color: #555;
+    text-align: center;
+    font-family: 'Quattrocento', serif;
+}
+
+.parrafo-paypal {
+    font-size: 18px;
+    font-family: 'Quattrocento', serif;
+}
+
+.img-rri-paypal {
+    padding-top: 50px;
+}
+
+.color-ico-2 {
+    font-size: 7px;
+    color: #ccc;
+}
+
+.marco-boxShadow-paypal {
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+    box-shadow: 0 5px 15px -7px rgba(10, 16, 34, .4);
+}
+
+.marco-boxShadow-paypal-2 {
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+    box-shadow: 0 5px 15px -7px rgba(10, 16, 34, .4);
+}
+
+.reproductor-adicionado {
+    padding-top: 50px;
+}
+
+
+/*--End: paypal--*/
+
+
+/*-- In: Datos de la Radio/Contacto --*/
+
+.contact-list-2 {
+    color: #565656;
+    font-size: 25px;
+}
+
+.color-ico {
+    font-size: 18px;
+    color: #34495e;
+}
+
+
+/*-- End: Datos de la Radio/Contacto --*/
+
+
+/*================= IN: INDEX ================*/
+/* --- In: Slither/más-información--- */
+.mas-informacion .letra {
+    bottom: 90px;
+    display: inline-block;
+    background: #38a5b7;
+    box-shadow: 0 4px 0 #2c8290;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: none;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    border-radius: 10px;
+    position: relative;
+    font-weight: 700;
+    text-transform: uppercase;
+    float: left;
+    letter-spacing: 0.7px;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 4px solid transparent;
+    color: #fff;
+}
+
+.mas-informacion .letra:hover {
+    background: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    color: #000;
+}
+/* --- End: Slither/más-información--- */
+
+
+/* ----In: Letras Verso de Memoria--- */
+.verso-de-memoria {
+    text-align: center;
+    font-weight: normal;
+    color: #161e23;
+    float: center;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.versisculo-del-dia {
+    text-align: center;
+    color: #566a7d;
+    float: center;
+    font-size: 25px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.versisculo-del-dia-blog {
+    text-align: center;
+    color: #566a7d;
+    float: center;
+    font-size: 21px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.radio-en-vivo {
+    padding-top: 14rem;
+    padding-bottom: 5rem;
+    box-sizing: border-box;
+}
+
+.verso {
+    padding-bottom: 5rem;
+    padding-left: 500px;
+    padding-right: 500px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:1680px) {
+    .verso {
+        padding-left: 300px;
+        padding-right: 300px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .verso {
+        padding-left: 200px;
+        padding-right: 200px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .verso {
+        padding-left: 80px;
+        padding-right: 80px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .verso {
+        padding-left: 30px;
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .verso {
+        padding-left: 30px;
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .verso {
+        padding-left: 30px;
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .versisculo-del-dia {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .versisculo-del-dia {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .verso-de-memoria {
+        font-size: 44px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .verso-de-memoria {
+        font-size: 44px;
+    }
+}
+/* ----End: Letras Verso de Memoria--- */
+
+
+/*--In: Lema--- */
+.title-lema {
+    font-family: 'Roboto Condensed', serif;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+/*--In: Lema--- */
+
+
+/*--In: Reflexión Bíblica--- */
+.section-1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-2{
+    padding-top: 90px;
+}
+
+.title-reflexion {
+    font-family: 'Roboto Condensed', serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 23px;
+    color: #515769;
+}
+
+.parrafo-reflexion {
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 500;
+}
+/*--End: Reflexión Bíblica--- */
+
+
+/* --- In: Blog--- */
+
+.blog>h2 {
+    font-family: 'Roboto Condensed', serif;
+    text-transform: uppercase;
+    color: #515769;
+    text-align: center;
+    font-size: 23px;
+}
+
+.parrafo-blog-index {
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    font-weight: normal;
+    font-size: 15px;
+    color: #555;
+}
+
+.title-blog-index {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.marco-boxShadow-index {
+    background: #fff;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    box-shadow: 0 5px 15px -7px rgba(10, 16, 34, .4);
+}
+
+.marco-boxShadow-index>a {
+    color: #555555;
+}
+
+.marco-boxShadow-index>a:hover {
+    color: #ccc;
+}
+
+.section {
+    color: #bfc1c7;
+}
+
+.section:hover {
+    color: #000;
+}
+
+
+/* --- End: Blog--- */
+
+
+/* --- In: Información--- */
+
+.img-responsive-2 {
+    width: 150px;
+    padding-bottom: 2rem;
+}
+
+
+/* --- End: Información--- */
+
+
+/*---In: Descarga App---*/
+
+.module-title-pp {
+    font-family: 'Roboto Condensed', serif;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.module-subtitle-app {
+    font-family: 'Raleway', sans-serif;
+    font-size: 23px;
+    Color: #323232;
+    text-align: center;
+    margin-bottom: none;
+}
+
+
+/*---End: Descarga App---*/
+
+
+/* --- In: footer--- */
+
+.datos>p {
+    color: #ccc;
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+
+.numero-cuenta {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.numero-cuenta-1 {
+    color: #ccc;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+
+.numero-cuenta-2 {
+    color: #fff;
+}
+
+.Blog-categorias {
+    line-height: 180%;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.widget>h5 {
+    font-size: 25px;
+    color: #fff;
+}
+/* --- End: footer--- */
+
+
+/*================= END: INDEX ================*/
+
+.color {
+    color: #00796B;
+    color: #004263;
+}
+
+/*================= END: PROGRAMACIÒN ================*/
+.description {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #2d2d2d;
+}
+/*================= END: PROGRAMACIÒN ================*/
+

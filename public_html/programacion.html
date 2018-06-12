@@ -1,0 +1,2350 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+<head>
+    <meta charset="utf-8"/>
+    <title>Promesa Integridad</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, IE=EmulateIE7">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content="Programación de la radio de RRI-2018"/>
+    <meta name="author" content="Red Radio Integridad"/>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Hind:400,500,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,700,700i,800,800i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:200,300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gravitas+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Corben" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quattrocento:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cardo:400,400i,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Antic+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Clicker+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ruthie" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Spirax" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Simonetta:400,400i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Damion|Satisfy" rel="stylesheet">
+    <!-- Fonts-icons-->
+    <link href="css/icons-rri-2017.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.min.css">
+    <!-- Global mandatory styles -->
+    <link href="vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- PAGE LEVEL PLUGIN STYLES -->
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css" />
+    <!-- Style - Principal -->
+    <link href="css/layout.min.css" rel="stylesheet" type="text/css" />
+    <!-- Audio-Radio -->
+    <link rel="stylesheet" href="css/audio-radio.css">
+    <!-- Favicon -->
+    <link href="img/favicons/Logo-Red-Radio-Integridad-Mini.ico" rel="shortcut icon" />
+
+    <!--  In: Stylesheets =============================================-->
+    <!-- Template specific stylesheets-->
+    <link href="including/assets/lib/animate.css/animate.css" rel="stylesheet" />
+    <link href="including/assets/lib/components-font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="including/assets/lib/et-line-font/et-line-font.css" rel="stylesheet" />
+    <link href="including/assets/lib/flexslider/flexslider.css" rel="stylesheet" />
+    <link href="including/assets/lib/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="including/assets/lib/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="including/assets/lib/magnific-popup/dist/magnific-popup.css" rel="stylesheet" />
+    <link href="including/assets/lib/simple-text-rotator/simpletextrotator.css" rel="stylesheet" />
+    <!-- Main stylesheet and color file-->
+    <link href="including/assets/css/style.css" rel="stylesheet" />
+    <link id="color-scheme" href="including/assets/css/colors/default.css" rel="stylesheet" />
+    <!--  End: Stylesheets =============================================-->
+    
+    <!-- Añadido / nuevo -->
+    <link rel="stylesheet" href="css/nuevo.css"> 
+</head>
+<body>
+    <!--========== IN: HEADER ==========-->
+    <header class="header navbar-fixed-top">
+        <!-- Navbar -->
+        <nav class="navbar" role="navigation">
+            <div class="container">
+                <!-- In: Móvil & Logo -->
+                <div class="menu-container">
+                    <!-- In: Visualización para móvil -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="sr-only">Toggle navigation / Red Radio Integridad</span>
+                            <span class="toggle-icon"></span>
+                        </button>
+                    <!-- End: Visualización para móvil -->
+
+                    <!-- In: Logo -->
+                    <div class="logo">
+                        <a class="logo-wrap" href="/">
+                            <img class="logo-img logo-img-main" src="img/logo/logo-dark-rri.png" alt="Red Radio Integridad Logo">
+                            <img class="logo-img logo-img-active" src="img/logo/logo-rri-footer.png" alt="Red Radio Integridad Logo">
+                        </a>
+                    </div>
+                    <!-- End: Logo -->
+                </div>
+                <!-- End: Móvil & Logo -->
+
+                <!-- In: Pestaña -->
+                <div class="collapse navbar-collapse nav-collapse">
+                    <div class="menu-container">
+                        <ul class="navbar-nav navbar-nav-right">
+                            <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="/">INICIO</a></li>
+                            <li class="nav-item"><a class="nav-item-child nav-item-hover" href="nosotros">Nosotros</a></li>
+                            <li class="nav-item"><a class="nav-item-child nav-item-hover" href="programacion">Programación Radial</a></li>
+                            <li class="nav-item"><a class="nav-item-child nav-item-hover" href="promesa-integridad">Promesa Integridad</a></li>
+                            <li class="nav-item"><a class="nav-item-child nav-item-hover" href="donaciones">Donaciones</a></li>
+                            <li class="nav-item"><a class="nav-item-child nav-item-hover" href="ubicacion">Contactos</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- END: Pestaña -->
+            </div>
+        </nav>
+        <!-- Navbar -->
+    </header>
+    <!--========== END: HEADER ==========-->
+
+    <!--========== IN: PARALLAX ==========-->
+    <div class="parallax-window" data-parallax="scroll" data-image-src="img/blogs/banners/banner-programacion.png">
+        <div class="parallax-content container">
+            <h1 class="carousel-title">PROGRAMACIÓN</h1>
+        </div>
+    </div>
+    <!--========== END: PARALLAX ==========-->
+
+    <!--========== IN: PAGE LAYOUT ==========-->
+    <!--In: PROGRAMACIÓN DE LA RADIO -->
+    <section class="module">
+      <div class="container">            
+        <div class="row">
+          <div class="col-sm-12">
+            <div role="tabpanel">                 
+              <ul class="nav nav-tabs font-alt" role="tablist">
+                <li class="active"><a href="#support" data-toggle="tab"><span class="icon-reorder"></span> LUNES A VIERNES</a></li>
+                <li><a href="#sales-sabado" data-toggle="tab"><span class="icon-reorder"></span> SÁBADO</a></li>
+                <li><a href="#sales-domingo" data-toggle="tab"><span class="icon-reorder"></span> DOMINGO</a></li>
+              </ul>                                
+              <div class="tab-content">                   
+                <!-- In: Programación de Lunes a Viernes --> 
+                <div class="tab-pane active" id="support">
+                  <div class="panel-group" id="accordion">
+
+                    <!-- In: 01 - Lectura de la Biblia --> 
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a data-toggle="collapse" data-parent="#accordion" href="#support-lv1"><strong>00:04</strong> - Lectura de la Biblia</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse in" id="support-lv1">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 01 - Lectura de la Biblia -->
+
+                    <!-- In: 02 - Siempre Amigas -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv2"><strong>00:30</strong> - Siempre Amigas</a></h4>
+                      </div>
+                      <div class="description panel-collapse collapse" id="support-lv2">
+                        <div class="panel-body">SIEMPRE AMIGAS Es un programa dado para mujeres "Siempre bella, siempre mujer, siempre amigas tu espacio diario que te transporta al mundo de la mujer actual, su familia y su hogar" Dirigida por Mónica López de Silva. - 
+                        <a style="color: crimson" href="http://siempreamigas.org/" target="_blank"><font size=2>VER PÁGINA</font></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 02 - Siempre Amigas -->                       
+
+                    <!-- In: 03 - Cada día las Escrituras -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv3"><strong>00:45</strong> - Cada día las Escrituras</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv3">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 03 - Cada día las Escrituras -->
+
+                    <!-- In: 04 - Libres de Verdad -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv4"><strong>01:03</strong> - Libres de Verdad</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv4">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 04 - Libres de Verdad -->
+
+                    <!-- In: 05 - Instituto Bíblico del Aire -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv5"><strong>01:07</strong> - Instituto Bíblico del Aire</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv5">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 05 - Instituto Bíblico del Aire -->                        
+
+                    <!-- In: 06 - En esto Pensad -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv6"><strong>01:30</strong> - En esto Pensad</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv6">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 06 - En esto Pensad -->
+
+                    <!-- In: 07 - Tesoros de la Palabra -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv7"><strong>02:04</strong> - Tesoros de la Palabra</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv7">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 07 - Tesoros de la Palabra -->                       
+
+                    <!-- In: 08 - Una Pausa en tu vida -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv8"><strong>02:15</strong> - Una Pausa en tu vida</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv8">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 08 - Una Pausa en tu vida -->
+
+                    <!-- In: 09 - Desencadenados -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv9"><strong>02.30</strong> - Desencadenados</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv9">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 09 - Desencadenados -->
+
+                    <!-- In: 10 - En Contacto -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv10"><strong>03:04</strong> - En Contacto</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv10">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 10 - En Contacto -->                        
+
+                    <!-- In: 11 - Para Ti Mujer -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv11"><strong>03:30</strong> - Para Ti Mujer</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv11">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 11 - Para Ti Mujer -->
+
+                    <!-- In: 12 - Momentos de la Creación -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv12"><strong>03:45</strong> - Momentos de la Creación</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv12">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 12 - Momentos de la Creación -->                       
+
+                    <!-- In: 13 - Tesoros Escondidos -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv13"><strong>04:04</strong> - Tesoros Escondidos</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv13">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 13 - Tesoros Escondidos -->
+
+                    <!-- In: 14 - De Regreso a Génesis -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv14"><strong>04:15</strong> - De Regreso a Génesis</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv14">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 14 - De Regreso a Génesis -->
+
+                    <!-- In: 15 - Visión para Vivir -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv15"><strong>04:30</strong> - Visión para Vivir</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv15">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 15 - Visión para Vivir -->                        
+
+                    <!-- In: 16 - Su Minuto en la Biblia -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv16"><strong>05:03</strong> - Su Minuto en la Biblia</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv16">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 16 - Su Minuto en la Biblia -->
+
+                    <!-- In: 17 - La Biblia Dice -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv17"><strong>05:06</strong> - La Biblia Dice</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv17">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 17 - La Biblia Dice -->                       
+
+                    <!-- In: 18 - A Través de la Biblia -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv18"><strong>05:30</strong> - A Través de la Biblia</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv18">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 18 - A Través de la Biblia -->
+
+                    <!-- In: 19 - La Buena Semilla -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv19"><strong>06:04</strong> - La Buena Semilla</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv19">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 19 - La Buena Semilla -->
+
+                    <!-- In: 20 - Reflexión para Hoy -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv20"><strong>06:15</strong> - Reflexión para Hoy</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv20">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 20 - Reflexión para Hoy -->
+
+                    <!-- In: 21 - Momento Decisivo -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv21"><strong>06:30</strong> - Momento Decisivo</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv21">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 21 - Momento Decisivo -->                       
+
+                    <!-- In: 22 - Alimento para el Alma -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv22"><strong>07:04</strong> - Alimento para el Alma</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv22">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 22 - Alimento para el Alma -->
+
+                    <!-- In: 23 - El Camino de la Vida -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv23"><strong>07:06</strong> - El Camino de la Vida</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv23">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 23 - El Camino de la Vida -->
+
+                    <!-- In: 24 - Gracia a Vosotros -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv24"><strong>07:30</strong> - Gracia a Vosotros</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv24">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 24 - Gracia a Vosotros -->                        
+
+                    <!-- In: 25 - En esto Pensad -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv25"><strong>08:04</strong> - Sólo Un Minuto</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv25">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 25 - En esto Pensad -->
+
+                    <!-- In: 26 - Pan Diario -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv26"><strong>08:15</strong> - Nuestro Pan Diario</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv26">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 26 - Pan Diario -->                       
+
+                    <!-- In: 27 - El Amor que Vale -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv27"><strong>08:30</strong> - El Amor que Vale</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv27">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 27 - El Amor que Vale -->
+
+                    <!-- In: 28 - Integridad y Sabiduría -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv28"><strong>09:04</strong> - Integridad y Sabiduría</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv28">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 28 - Integridad y Sabiduría -->
+
+                    <!-- In: 29 - Academia Cristiana del Aire -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv29"><strong>09:30</strong> - Academia Cristiana del Aire</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv29">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 29 - Academia Cristiana del Aire -->                        
+
+                    <!-- In: 30 - Libres de Verdad -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv30"><strong>10:03</strong> - Libres de Verdad</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv30">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 30 - Libres de Verdad -->
+
+                    <!-- In: 31 - En Esto Pensad -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv31"><strong>10:07</strong> - En Esto Pensad</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv31">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 31 - En Esto Pensad -->                       
+
+                    <!-- In: 32 - El Contacto Cristiano -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv32"><strong>10:30</strong> - El Contacto Cristiano</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv32">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 32 - El Contacto Cristiano -->
+
+                    <!-- In: 33 - Vida en Familia Hoy -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv33"><strong>11:04</strong> - Vida en Familia Hoy</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv33">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 33 - Vida en Familia Hoy -->
+
+                    <!-- In: 34 - Siempre Amigas -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv34"><strong>11.30</strong> - Siempre Amigas</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv34">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 34 - Siempre Amigas -->                        
+
+                    <!-- In: 35 - Cada día las Escrituras -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv35"><strong>11:45</strong> - Cada día las Escrituras</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv35">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 35 - Cada día las Escriturasa -->
+
+                    <!-- In: 36 - Perlas de las Perseveradoras -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv36"><strong>12:04</strong> - Perlas de las Perseveradoras</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv36">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 36 - Perlas de las Perseveradoras -->                       
+
+                    <!-- In: 37 - Para Ti Mujer -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv37"><strong>12:15</strong> - Para Ti Mujer</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv37">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 37 - Para Ti Mujer -->
+
+                    <!-- In: 38 - A Través de la Biblia -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv38"><strong>12:30</strong> - A Través de la Biblia</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv38">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 38 - A Través de la Biblia -->
+
+                    <!-- In: 39 - El Sermón Bíblico -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv39"><strong>13:04</strong> - El Sermón Bíblico</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv39">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 39 - El Sermón Bíblico -->
+
+                    <!-- In: 40 - Sala de Conciertos -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv40"><strong>14:04</strong> - Sala de Conciertos</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv40">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 40 - Sala de Conciertos -->
+
+                    <!-- In: 41 - Tesoros de la Palabra -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv41"><strong>14:13</strong> - Tesoros de la Palabra</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv41">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 41 - Tesoros de la Palabra -->
+
+                    <!-- In: 42 - Una Pausa en tu Vida -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv42"><strong>14:23</strong> - Una Pausa en tu Vida</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv42">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 42 - Una Pausa en tu Vida -->                       
+
+                    <!-- In: 43 - Desencadenados -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv43"><strong>14:30</strong> - Desencadenados</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv43">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 43 - Desencadenados -->
+
+                    <!-- In: 44 - En Contacto -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv44"><strong>15:04</strong> - En Contacto</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv44">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 44 - En Contacto -->
+
+                    <!-- In: 45 - Lectura de la Biblia -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv45"><strong>15:30</strong> - Lectura de la Biblia</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv45">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 45 - Lectura de la Biblia -->    
+
+                    <!-- In: 46 - T. Escondidos (Viernes: La Biblia Responde) -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv46"><strong>16:04</strong> - Tesoros Escondidos (Viernes: La Biblia Responde - en vivo)</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv46">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 46 - T. Escondidos (Viernes: La Biblia Responde) -->
+
+                    <!-- In: 47 - Sabio y Prudente (Niños) -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv47"><strong>16:07</strong> - Sabio y Prudente (Niños)</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv47">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 47 - Sabio y Prudente (Niños) -->                       
+
+                    <!-- In: 48 - Instituto Bíblico del Aire -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv48"><strong>16:30</strong> - Instituto Bíblico del Aire</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv48">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 48 - Instituto Bíblico del Aire -->
+
+                    <!-- In: 49 - De Regreso a Génesis -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv49"><strong>17.04</strong> - De Regreso a Génesis</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv49">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 49 - De Regreso a Génesis -->
+
+                    <!-- In: 50 - Momentos de la Creación -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv50"><strong>17:15</strong> - Momentos de la Creación</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv50">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 50 - Momentos de la Creación -->                        
+
+                    <!-- In: 51 - Visión Para Vivir -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv51"><strong>17:30</strong> - Visión Para Vivir</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv51">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 51 - Visión Para Vivir -->
+
+                    <!-- In: 52 - Alimento para el Alma -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv52"><strong>18:04</strong> - Alimento para el Alma</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv52">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 52 - Alimento para el Alma -->                       
+
+                    <!-- In: 53 - El Camino de la Vida -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv53"><strong>18:07</strong> - El Camino de la Vida</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv53">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 53 - El Camino de la Vida -->
+
+                    <!-- In: 54 - Momento Decisivo -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv54"><strong>18:30</strong> - Momento Decisivo</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv54">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 54 - Momento Decisivo -->
+
+                    <!-- In: 55 - Vivencias -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv55"><strong>19:04</strong> - Vivencias</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv55">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 55 - Vivencias -->                        
+
+                    <!-- In: 56 - Correr para Ganar -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv56"><strong>19:07</strong> - Correr para Ganar</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv56">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 56 - Correr para Ganar -->
+
+                    <!-- In: 57 - El Amor que Vale -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv57"><strong>19:30</strong> - El Amor que Vale</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv57">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 57 - El Amor que Vale -->                       
+
+                    <!-- In: 58 - Su Minuto en la Biblia -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv58"><strong>20:04</strong> - Su Minuto en la Biblia</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv58">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 58 - Su Minuto en la Biblia -->
+
+                    <!-- In: 59 - Un Consejo Bíblico -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv59"><strong>20:15</strong> - Un Consejo Bíblico</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv59">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 59 - Un Consejo Bíblico -->
+
+                    <!-- In: 60 - A Través de la Biblia -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv60"><strong>20:30</strong> - A Través de la Biblia</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv60">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 60 - A Través de la Biblia -->
+
+                    <!-- In: 61 - El Sermón Bíblico -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv61"><strong>21:04</strong> - El Sermón Bíblico</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv61">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 61 - El Sermón Bíblico -->
+
+                    <!-- In: 62 - Gracia a Vosotros -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv62"><strong>22:04</strong> - Gracia a Vosotros</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv62">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 62 - Gracia a Vosotros -->
+
+                    <!-- In: 63 - Academia Cristiana -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv63"><strong>22:30</strong> - Academia Cristiana del Aire</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv63">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 63 - Academia Cristiana -->
+
+                    <!-- In: 64 - Integridad y Sabiduría -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv64"><strong>23:04</strong> - Integridad y Sabiduría</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv64">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 64 - Integridad y Sabiduría -->
+
+                    <!-- In: 65 - El Contacto Cristiano -->                                                
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support-lv65"><strong>23:30</strong> - El Contacto Cristiano</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="support-lv65">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 65 - El Contacto Cristiano -->                                                                                                             
+                  </div>
+                </div>
+                <!-- End: Programación de Lunes a Viernes -->
+
+                <!-- In: Programación de Sábados -->                    
+                <div class="tab-pane" id="sales-sabado">
+                  <div class="panel-group" id="accordion">
+
+                    <!-- In: 01 - Lectura de la Biblia -->
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a data-toggle="collapse" data-parent="#accordion" href="#sales1"><strong>00:02</strong> - Lectura de la Biblia</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales1">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 01 - Lectura de la Biblia -->                        
+
+                    <!-- In: 02 - Llamada de Medianoche -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales2"><strong>00:30</strong> - Llamada de Medianoche</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales2">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 02 - Llamada de Medianoche -->
+
+                    <!-- In: 03 - Tierra Firme -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales3"><strong>01:02</strong> - Tierra Firme</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales3">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 03 - Tierra Firme -->
+
+                    <!-- In: 04 - Preguntas y Respuestas -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales4"><strong>02:02</strong> - Preguntas y Respuestas</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales4">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 04 - Preguntas y Respuestas -->
+
+                    <!-- In: 05 - Esperanza para el Corazón -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales5"><strong>02:15</strong> - Esperanza para el Corazón</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales5">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 05 - Esperanza para el Corazón -->
+
+                    <!-- In: 06 - Desencadenados -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales6"><strong>02:30</strong> - Desencadenados</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales6">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 06 - Desencadenados -->
+
+                    <!-- In: 07 - Aviva Nuestros Corazones -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales7"><strong>03:02</strong> - Aviva Nuestros Corazones</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales7">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 07 - Aviva Nuestros Corazones -->
+
+                    <!-- In: 08 - La Historia desde adentro -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales8"><strong>03:30</strong> - La Historia desde adentro</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales8">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 08 - La Historia desde adentro -->
+
+                    <!-- In: 09 - La Biblia Responde -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales9"><strong>04:02</strong> - La Biblia Responde</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales9">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 09 - La Biblia Responde -->
+
+                    <!-- In: 10 - La Biblia Dice -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales10"><strong>05:02</strong> - La Biblia Dice</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales10">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 10 - La Biblia Dice -->
+
+                    <!-- In: 11 - La Clase Bíblica Radial -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales11"><strong>05:30</strong> - La Clase Bíblica Radial</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales11">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 11 - La Clase Bíblica Radial -->
+
+                    <!-- In: 12 - La Buena Semilla -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales12"><strong>06:02</strong> - La Buena Semilla</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales12">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 12 - La Buena Semilla -->
+
+                    <!-- In: 13 - El Pulso de los Tiempos -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales13"><strong>06:07</strong> - El Pulso de los Tiempos</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales13">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 13 - El Pulso de los Tiempos -->
+
+                    <!-- In: 14 - Jungla Semántica -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales14"><strong>06:30</strong> - Jungla Semántica</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales14">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 14 - Jungla Semántica -->
+
+                    <!-- In: 15 - Alimento para el Alma -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales15"><strong>07:02</strong> - Alimento para el Alma</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales15">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 15 - Alimento para el Alma -->
+
+                    <!-- In: 16 - Base Bíblica -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales16"><strong>07:06</strong> - Base Bíblica</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales16">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 16 - Base Bíblica -->
+
+                    <!-- In: 17 - Pensemos con R. Zacarías -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales17"><strong>07:30</strong> - Pensemos con R. Zacarías</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales17">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 17 - Pensemos con R. Zacarías -->
+
+                    <!-- In: 18 - Los Grandes Temas -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales18"><strong>08:02</strong> - Los Grandes Temas</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales18">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 18 - Los Grandes Temas -->
+
+                    <!-- In: 19 - Tesoros para Niños -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales19"><strong>08:45</strong> - Tesoros para Niños</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales19">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 19 - Tesoros para Niños -->
+
+                    <!-- In: 20 - Nuestro Pan Diario -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales20"><strong>09:03</strong> - Nuestro Pan Diario</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales20">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 20 - Nuestro Pan Diario --> 
+
+                    <!-- In: 21 - Sabio y Prudente -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales21"><strong>09:07</strong> - Sabio y Prudente</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales21">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 21 - Sabio y Prudente -->
+
+                    <!-- In: 22 - Viajeros -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales22"><strong>01:02</strong> - Viajeros</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales22">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 22 - Viajeros -->
+
+                    <!-- In: 23 - Tu Historia Preferida -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales23"><strong>10:30</strong> - Tu Historia Preferida</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales23">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 23 - Tu Historia Preferida -->
+
+                    <!-- In: 24 - La Verdad en el Tubo de Ensayo -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales24"><strong>10:30</strong> - La Verdad en el Tubo de Ensayo</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales24">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 24 - La Verdad en el Tubo de Ensayo -->
+
+                    <!-- In: 25 - Las razones de la fe -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales25"><strong>11:03</strong> - Las razones de la fe</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales25">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 25 - Las razones de la fe -->
+
+                    <!-- In: 26 - Las Perseveradoras -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales26"><strong>11:07</strong> - Las Perseveradoras</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales26">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 26 - Las Perseveradoras -->
+
+                    <!-- In: 27 - Dr. Lucas -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales27"><strong>11:30</strong> - Dr. Lucas</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales27">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 27 - Dr. Lucas -->
+
+                    <!-- In: 28 - Aviva Nuestros Corazones -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales28"><strong>12:02</strong> - Aviva Nuestros Corazones</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales28">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 28 - Aviva Nuestros Corazones -->
+
+                    <!-- In: 29 - Preguntas y Respuestas -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales29"><strong>12:30</strong> - Preguntas y Respuestas</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales29">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 29 - Preguntas y Respuestas -->
+
+                    <!-- In: 30 - El Sermón Bíblico -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales30"><strong>13:02</strong> - El Sermón Bíblico</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales30">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 30 - El Sermón Bíblico -->
+
+                    <!-- In: 31 - Lectura de la Biblia -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales31"><strong>14:02</strong> - Lectura de la Biblia</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales31">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 31 - Lectura de la Biblia -->
+
+                    <!-- In: 32 - Llamada de Medianoche -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales32"><strong>14:30</strong> - Llamada de Medianoche</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales32">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 32 - Llamada de Medianoche -->
+
+                    <!-- In: 33 - Preguntas y Respuestas -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales33"><strong>15:03</strong> - Preguntas y Respuestas</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales33">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 33 - Preguntas y Respuestas -->
+
+                    <!-- In: 34 - La Clase Bíblica Radial -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales34"><strong>15:07</strong> - La Clase Bíblica Radial</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales34">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 34 - La Clase Bíblica Radial -->
+
+                    <!-- In: 35 - La Historia desde Adentro -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales35"><strong>15:30</strong> - La Historia desde Adentro</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales35">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 35 - La Historia desde Adentro -->
+
+                    <!-- In: 36 - Tierra Firme -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales36"><strong>16:02</strong> - Tierra Firme</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales36">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 36 - Tierra Firme -->
+
+                    <!-- In: 37 - Viajeros -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales37"><strong>16:30</strong> - Viajeros</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales37">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 37 - Viajeros -->
+
+                    <!-- In: 38 - Palabras de Amor -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales38"><strong>17:02</strong> - Palabras de Amor</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales38">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 38 - Palabras de Amor -->
+
+                    <!-- In: 39 - Tu Historia Preferida -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales39"><strong>17:30</strong> - Tu Historia Preferida</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales39">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 39 - Tu Historia Preferida -->
+
+                    <!-- In: 40 - Palabra Viva -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales40"><strong>18:02</strong> - Palabra Viva</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales40">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 40 - Palabra Viva -->
+
+                    <!-- In: 41 - Minuto Decisivo -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales41"><strong>18:15</strong> - Minuto Decisivo</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales41">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 41 - Minuto Decisivo -->
+
+                    <!-- In: 42 - Jungla Semántica -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales42"><strong>18:30</strong> - Jungla Semántica</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales42">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 42 - Jungla Semántica -->
+
+                    <!-- In: 43 - Alimento Para el Alma -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales43"><strong>19:02</strong> - Alimento Para el Alma</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales43">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 43 - Alimento Para el Alma -->
+
+                    <!-- In: 44 - Las Razones de la Fe -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales44"><strong>19:06</strong> - Las Razones de la Fe</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales44">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 44 - Las Razones de la Fe -->
+
+                    <!-- In: 45 - Los Grandes Temas -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales45"><strong>19:20</strong> - Los Grandes Temas</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales45">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 45 - Los Grandes Temas -->
+
+                    <!-- In: 46 - Pensemos con R. Zacarías -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales46"><strong>20:02</strong> - Pensemos con R. Zacarías</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales46">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 46 - Pensemos con R. Zacarías -->
+
+                    <!-- In: 47 - Base Bíblica -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales47"><strong>20:30</strong> - Base Bíblica</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales47">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 47 - Base Bíblica -->
+
+                    <!-- In: 48 - El Sermón Bíblico -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales48"><strong>21:02</strong> - El Sermón Bíblico</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales48">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 48 - El Sermón Bíblico -->
+
+                    <!-- In: 49 - Preguntas y Respuestas -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales49"><strong>22:02</strong> - Preguntas y Respuestas</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales49">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 49 - Preguntas y Respuestas -->
+
+                    <!-- In: 50 - Las Perseveradoras -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales50"><strong>22:30</strong> - Las Perseveradoras</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales50">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 50 - Las Perseveradoras -->
+
+                    <!-- In: 51 - La Biblia Responde -->                        
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sales51"><strong>23:02</strong> - La Biblia Responde</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="sales51">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End: 51 - La Biblia Responde -->   
+
+                  </div>
+                </div>
+                <!-- In: Programación de Sábados -->                    
+
+                <!-- In: Programación de Domingos -->                    
+                <div class="tab-pane" id="sales-domingo">
+                  <div class="panel-group" id="accordion">
+
+                    <!-- In: 01 - Lectura de la Biblia -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-1"><strong>00:03</strong> - Lectura de la Biblia</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-1">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 01 - Lectura de la Biblia -->
+
+                    <!-- In: 02 - Llamada de Medianoche -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-2"><strong>00:30</strong> - Llamada de Medianoche</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-2">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 02 - Llamada de Medianoche -->
+
+                    <!-- In: 03 - Tierra Firme -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-3"><strong>01:02</strong> - Tierra Firme</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-3">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 03 - Tierra Firme -->
+
+                    <!-- In: 04 - Preguntas y Respuestas -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-4"><strong>02:02</strong> - Preguntas y Respuestas</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-4">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 04 - Preguntas y Respuestas -->
+
+                    <!-- In: 05 - Esperanza para el Corazón -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-5"><strong>02:15</strong> - Esperanza para el Corazón</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-5">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 05 - Esperanza para el Corazón -->
+
+                    <!-- In: 06 - Tu Historia Preferida (Niños) -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-6"><strong>02:30</strong> - Tu Historia Preferida (Niños)</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-6">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 06 - Tu Historia Preferida (Niños) -->
+
+                    <!-- In: 07 - Aviva Nuestros Corazones -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-7"><strong>03.03</strong> - Aviva Nuestros Corazones</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-7">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 07 - Aviva Nuestros Corazones -->
+
+                    <!-- In: 08 - Desencadenados -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-8"><strong>03:30</strong> - Desencadenados</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-8">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 08 - Desencadenados -->
+
+                    <!-- In: 09 - La Biblia Responde -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-9"><strong>04:02</strong> - La Biblia Responde</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-9">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 09 - La Biblia Responde -->
+
+                    <!-- In: 10 - La Historia desde Adentro -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-10"><strong>05:03</strong> - La Historia desde Adentro</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-10">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 10 - La Historia desde Adentro -->
+
+                    <!-- In: 11 - La Clase Bíblica Radial -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-11"><strong>05:30</strong> - La Clase Bíblica Radial</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-11">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 11 - La Clase Bíblica Radial -->
+
+                    <!-- In: 12 - La Buena Semilla -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-12"><strong>06:02</strong> - La Buena Semilla</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-12">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 12 - La Buena Semilla -->
+
+                    <!-- In: 13 - El Pulso de los Tiempos -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-13"><strong>06:07</strong> - El Pulso de los Tiempos</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-13">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 13 - El Pulso de los Tiempos -->
+
+                    <!-- In: 14 - Jungla Semántica -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-14"><strong>06:30</strong> - Jungla Semántica</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-14">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 14 - Jungla Semántica -->
+
+                    <!-- In: 15 - Alimento Para el Alma -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-15"><strong>07:02</strong> - Alimento Para el Alma</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-15">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 15 - Alimento Para el Alma -->
+
+                    <!-- In: 16 - Base Bíblica -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-16"><strong>07:06</strong> - Base Bíblica</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-16">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 16 - Base Bíblica -->
+
+                    <!-- In: 17 - Pensemos con R. Zacarías -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-17"><strong>07:30</strong> - Pensemos con R. Zacarías</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-17">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 17 - Pensemos con R. Zacarías -->
+
+                    <!-- In: 18 - La Buena Semilla -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-18"><strong>08:03</strong> - La Buena Semilla</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-18">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 18 - La Buena Semilla -->
+
+                    <!-- In: 19 - Palabra Viva -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-19"><strong>08:10</strong> - Palabra Viva</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-19">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 19 - Palabra Viva -->
+
+                    <!-- In: 20 - Los Grandes Temas -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-20"><strong>08:20</strong> - Los Grandes Temas</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-20">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 20 - Los Grandes Temas -->
+
+                    <!-- In: 21 - Tu Historia Preferida (Niños) -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-21"><strong>09:03</strong> - Tu Historia Preferida (Niños)</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-21">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 21 - Tu Historia Preferida (Niños) -->
+
+                    <!-- In: 22 - Palabras de Amor (Niños) -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-22"><strong>09:30</strong> - Palabras de Amor (Niños)</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-22">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 22 - Palabras de Amor (Niños) -->
+
+                    <!-- In: 23 - Nuestro Pan Diario -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-23"><strong>10:03</strong> - Nuestro Pan Diario</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-23">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 23 - Nuestro Pan Diario -->
+
+                    <!-- In: 24 - Tesoros para Niños (Niños) -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-24"><strong>10:07</strong> - Tesoros para Niños (Niños)</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-24">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 24 - Tesoros para Niños (Niños) -->
+
+                    <!-- In: 25 - Llamada de Medianoche -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-25"><strong>10:30</strong> - Llamada de Medianoche</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-25">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 25 - Llamada de Medianoche -->
+
+                    <!-- In: 26 - Las razones de la fe -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-26"><strong>11:03</strong> - Las razones de la fe</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-26">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 26 - Las razones de la fe -->
+
+                    <!-- In: 27 - Dr. Lucas RTM -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-27"><strong>11:07</strong> - Dr. Lucas RTM</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-27">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 27 - Dr. Lucas RTM -->
+
+                    <!-- In: 28 - Las Perseveradoras -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-28"><strong>11:30</strong> - Las Perseveradoras</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-28">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 28 - Las Perseveradoras -->
+
+                    <!-- In: 29 - Aviva Nuestros Corazones -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-29"><strong>12:02</strong> - Aviva Nuestros Corazones</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-29">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 29 - Aviva Nuestros Corazones -->
+
+                    <!-- In: 30 - La Verdad en el Tubo de Ensayo -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-30"><strong>12:30</strong> - La Verdad en el Tubo de Ensayo</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-30">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 30 - La Verdad en el Tubo de Ensayo -->
+
+                    <!-- In: 31 - El Sermón Bíblico -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-31"><strong>13:02</strong> - El Sermón Bíblico</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-31">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 31 - El Sermón Bíblico -->
+
+                    <!-- In: 32 - Lectura de la Biblia -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-32"><strong>14:03</strong> - Lectura de la Biblia</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-32">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 32 - Lectura de la Biblia -->
+
+                    <!-- In: 33 - Preguntas y Respuestas -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-33"><strong>14:30</strong> - Preguntas y Respuestas</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-33">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 33 - Preguntas y Respuestas -->
+
+                    <!-- In: 34 - Preguntas y Respuestas -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-34"><strong>15:03</strong> - Preguntas y Respuestas</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-34">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 34 - Preguntas y Respuestas -->
+
+                    <!-- In: 35 - La Clase Bíblica Radial -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-35"><strong>15:07</strong> - La Clase Bíblica Radial</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-35">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 35 - La Clase Bíblica Radial -->
+
+                    <!-- In: 36 - La Historia desde Adentro -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-36"><strong>15:30</strong> - La Historia desde Adentro</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-36">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 36 - La Historia desde Adentro -->
+
+                    <!-- In: 37 - Viajeros (Niños) -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-37"><strong>16:03</strong> - Viajeros (Niños)</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-37">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 37 - Viajeros (Niños) -->
+
+                    <!-- In: 38 - Sabio y Prudente (Niños) -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-38"><strong>16:30</strong> - Sabio y Prudente (Niños)</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-38">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 38 - Sabio y Prudente (Niños) -->
+
+                    <!-- In: 39 - Desencadenados -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-39"><strong>17:03</strong> - Desencadenados</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-39">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 39 - Desencadenados -->
+
+                    <!-- In: 40 - El Pulso de los Tiempos -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-40"><strong>17:30</strong> - El Pulso de los Tiempos</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-40">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 40 - El Pulso de los Tiempos -->
+
+                    <!-- In: 41 - Palabra Viva -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-41"><strong>18:03</strong> - Palabra Viva</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-41">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 41 - Palabra Viva -->
+
+                    <!-- In: 42 - Minuto Decisivo -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-42"><strong>18:15</strong> - Minuto Decisivo</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-42">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 42 - Minuto Decisivo -->
+
+                    <!-- In: 43 - Jungla Semántica -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-43"><strong>18:30</strong> - Jungla Semántica</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-43">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 43 - Jungla Semántica -->
+
+                    <!-- In: 44 - Alimento Para el Alma -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-44"><strong>19:03</strong> - Alimento Para el Alma</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-44">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 44 - Alimento Para el Alma -->
+
+                    <!-- In: 45 - Las razones de la fe -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-45"><strong>19:152</strong> - Las razones de la fe</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-45">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 45 - Las razones de la fe -->
+
+                    <!-- In: 46 - Los Grandes Temas -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-46"><strong>19:20</strong> - Los Grandes Temas</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-46">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 46 - Los Grandes Temas -->
+
+                    <!-- In: 47 - Pensemos con R. Zacarías -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-47"><strong>20:03</strong> - Pensemos con R. Zacarías</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-47">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 47 - Pensemos con R. Zacarías -->
+
+                    <!-- In: 48 - Base Bíblica -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-48"><strong>20:30</strong> - Base Bíblica</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-48">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 48 - Base Bíblica -->
+
+                    <!-- In: 49 - El Sermón Bíblico -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-49"><strong>21:03</strong> - El Sermón Bíblico</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-49">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 49 - El Sermón Bíblico -->
+
+                    <!-- In: 50 - Preguntas y Resouestas -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-50"><strong>22:03</strong> - Preguntas y Resouestas</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-50">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 50 - Preguntas y Resouestas -->
+
+                    <!-- In: 51 - Las Perseveradoras -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-51"><strong>22:30</strong> - Las Perseveradoras</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-51">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 51 - Las Perseveradoras -->
+
+                    <!-- In: 52 - La Biblia Responde -->                       
+                    <div class="panel panel-default">
+                      <div style="background: #fff" class="panel-heading">
+                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#domingo-52"><strong>23:02</strong> - La Biblia Responde</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="domingo-52">
+                        <div class="panel-body">...
+                        </div>
+                      </div>
+                    </div>
+                    <!-- In: 52 - La Biblia Responde --> 
+
+                  </div>
+                </div>
+                <!-- In: Programación de Domingos -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End: PROGRAMACIÓN DE LA RADIO -->        
+
+    <!--In: Radio en Vivo / Adicionado --> 
+    <div class="container">
+        <div class="col-sm-12">
+            <table background="http://2.bp.blogspot.com/-Gi1Z_uz5DDA/Vml9t2mr_VI/AAAAAAAAH38/SWcEiCLo528/s1600/bg-player2.gif" border="0" bordercolor="#FFFFFF" cellpadding="7" cellspacing="0" rules="all" style="height: 85px; width: 100%;">
+                <tbody>
+                    <tr>
+                        <td width="95">
+                            <a href="#" style="clear: left; float: center; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="#" style="border: 3 solid #000000;"></a>
+                        </td>
+                        <td height="10"><span class="reproducir-radio" style="font-size: normal;">RADIO EN VIVO</span></td>
+
+                        <td width="74"><br>
+                            <div align="left">
+                                <iframe 0="" allowtransparency="true" frameborder="0" height="85" marginheight="0" marginwidth="0" noresize="" scrolling="No" src="http://www.radiosfm.pe/lima1/RRI.html" style="background: transparent;" width="74" wmode="transparent"></iframe>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!--End: Radio en Vivo / Adicionado --> 
+    <!--========== END: PAGE LAYOUT ==========-->
+
+    <!--========== IN: FOOTER ==========-->
+    <div class="main">
+        <div class="module-small bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="widget">
+                            <h5 class="title-footer widget-title font-alt">DATOS DE LA RADIO</h5>
+                            <ul class="widget-posts">
+                                <div class="widget datos">
+                                    <li>
+                                        <h5 class="numero-cuenta-1"><strong class="numero-cuenta-2">DIRECCIÓN:</strong>&nbsp; Jr. Alejandro tirado 508, Urb. Santa Beatríz - LIMA-PERÚ</h5>
+                                    </li>
+                                    <li>
+                                        <h5 class="numero-cuenta-1"><strong class="numero-cuenta-2">TELEF.:</strong>&nbsp; +51-1-2653 291</h5>
+                                    </li>
+                                    <li>
+                                        <h5 class="numero-cuenta-1"><strong class="numero-cuenta-2">MÓVIL:</strong>&nbsp; +51-949-066-051</h5>
+                                    </li>
+                                    <li>
+                                        <h5 class="numero-cuenta-1"><strong class="numero-cuenta-2">WHATSAPP:</strong>&nbsp; +51-960 726 379</h5>
+                                    </li>
+                                    <li>
+                                        <h5 class="numero-cuenta-1"><strong class="numero-cuenta-2">MAIL:</strong>&nbsp; info@redradiointegridad.org</h5>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="widget">
+                            <h5 class="title-footer widget-title font-alt">Blog/Categorias</h5>
+                            <ul>
+                                <li class="icon-angle-right"><a class="Blog-categorias" href="#">Teología</a></li>
+                                <li class="icon-angle-right"><a class="Blog-categorias" href="HOGAR-CRISTIANO-Un-Padre-Piadoso">Hogar Cristiano</a></li>
+                                <li class="icon-angle-right"><a class="Blog-categorias" href="HOGAR-CRISTIANO-Un-Padre-Piadoso">Damas</a></li>
+                                <li class="icon-angle-right"><a class="Blog-categorias" href="#">Jóvenes</a></li>
+                                <li class="icon-angle-right"><a class="Blog-categorias" href="#">Creacionismo</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="widget">
+                            <h5 class="title-footer widget-title font-alt">VER MÁS DE</h5>
+                            <ul>
+                                <li class="icon-angle-right"><a class="Blog-categorias" href="nosotros">Nosotros</a></li>
+                                <li class="icon-angle-right"><a class="Blog-categorias" href="programacion">Programación radial</a></li>
+                                <li class="icon-angle-right"><a class="Blog-categorias" href="promesa-integridad">Promesa Integridad</a></li>
+                                <li class="icon-angle-right"><a class="Blog-categorias" href="mision-integridad">Misión Integridad</a></li>
+                                <li class="icon-angle-right"><a class="Blog-categorias" href="ubicacion">Contactos</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="widget">
+                            <h5 class="title-footer widget-title font-alt">DONACIONES</h5>
+                            <ul class="widget-posts">
+                                <div class="widget datos">
+                                    <li class="numero-cuenta">BANCO SCOTIABANK
+                                        <h5 class="numero-cuenta-1"><strong class="numero-cuenta-2">A NOMBRE:</strong>&nbsp; Asociación Civil Radio Integridad Lima</h5>
+                                    </li>
+                                    <li>
+                                        <h5 class="numero-cuenta-1"><strong class="numero-cuenta-2">• EN SOLES:</strong>&nbsp; 410-0082488</h5>
+                                    </li>
+                                    <li>
+                                        <h5 class="numero-cuenta-1"><strong class="numero-cuenta-2">• EN DÓLARES:</strong>&nbsp; 410-0036347</h5>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="divider-d">
+        <footer class="footer bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p class="copyright font-alt">&copy; 2018 &nbsp;<a href="index">Red Radio Integridad</a>, todo los derechos reservados</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="footer-social-links">
+                            <a href="https://www.facebook.com/RedRadioIntegridad/?ref=br_rs" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="https://twitter.com/RR_Integridad" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/redradio_integridad/" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/channel/UC1YwZ-uQCPu5peJgA7Cxuwg" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- In: scroll -->
+    <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-up"></i></a></div>
+    <!-- IEnd: scroll -->
+    <!--========== END: FOOTER ==========-->
+        
+    <!-- Back To Top -->
+    <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-up"></i></a></div>
+
+    <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+    <!-- CORE PLUGINS -->
+    <script src="vendor/jquery.min.js" type="text/javascript"></script>
+    <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+    <!-- PAGE LEVEL PLUGINS -->
+    <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+    <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+    <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+    <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+    <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
+    <script src="vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
+
+    <!-- PAGE LEVEL SCRIPTS -->
+    <script src="js/layout.min.js" type="text/javascript"></script>
+    <script src="js/components/swiper.min.js" type="text/javascript"></script>
+    <script src="js/components/wow.min.js" type="text/javascript"></script>
+
+    <!-- cite-bible-->
+    <script src="js/cite-bible.js" type="text/javascript"></script>
+
+    <!-- JavaScripts ============================================= -->
+    <script src="including/assets/lib/jquery/dist/jquery.js"></script>
+    <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="including/assets/lib/wow/dist/wow.js"></script>
+    <script src="including/assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>
+    <script src="including/assets/lib/isotope/dist/isotope.pkgd.js"></script>
+    <script src="including/assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
+    <script src="including/assets/lib/flexslider/jquery.flexslider.js"></script>
+    <script src="including/assets/lib/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="including/assets/lib/smoothscroll.js"></script>
+    <script src="including/assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
+    <script src="including/assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
+    <script src="including/assets/js/plugins.js"></script>
+    <script src="including/assets/js/main.js"></script>
+    <!-- JavaScripts ============================================= -->   
+    </body>
+</html>

@@ -1,0 +1,35 @@
+/*================= In: Chat de Facebook ================ */
+.chat-container {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+    z-index: 999;    
+}
+
+.chat-button h5 {
+    width: 100%;
+    margin: 0px;
+    cursor: pointer;
+    user-select: none;
+    padding: 6px 0;
+    background-color: rgb(0, 132, 255);
+    text-align: center;
+    color: #fff;  
+    border-radius: 7px 7px 0 0;
+    font-family: "Hind", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.chat-conten{
+    margin: 0px;
+    padding: 0px;
+    display: none;
+}
+/*================= End: Chat de Facebook ================ */
